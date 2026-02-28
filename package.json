@@ -1,0 +1,17 @@
+{
+  "name": "noxtab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "NoxTab: CDP CLI for remote debugging in Chrome",
+  "bin": {
+    "cdp-tool": "./cdp-tool.js"
+  },
+  "scripts": {
+    "start": "node ./cdp-tool.js",
+    "check": "node --check ./cdp-tool.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

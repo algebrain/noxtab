@@ -26,3 +26,6 @@ screenshots/
 *.tmp
 *.cache
 state.png
+
+.local
+*.local.*
